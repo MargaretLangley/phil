@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const b=document.querySelector(".menu-button"),n=document.querySelector(".site-nav");if(!b||!n)return;n.dataset.collapsible="true";b.hidden=false;b.addEventListener("click",()=>{const o=n.classList.toggle("is-open");b.setAttribute("aria-expanded",String(o))})});
