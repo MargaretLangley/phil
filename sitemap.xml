@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Replace example.com with the deployed domain before publishing. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://example.com/</loc></url><url><loc>https://example.com/programme.html</loc></url><url><loc>https://example.com/meetings.html</loc></url><url><loc>https://example.com/events.html</loc></url><url><loc>https://example.com/display-of-the-month.html</loc></url><url><loc>https://example.com/contact.html</loc></url><url><loc>https://example.com/history.html</loc></url><url><loc>https://example.com/affiliations.html</loc></url><url><loc>https://example.com/philatelic-material.html</loc></url>
+<url><loc>https://scphilatelic.org.uk/</loc></url><url><loc>https://scphilatelic.org.uk/programme.html</loc></url><url><loc>https://scphilatelic.org.uk/meetings.html</loc></url><url><loc>https://scphilatelic.org.uk/events.html</loc></url><url><loc>https://scphilatelic.org.uk/display-of-the-month.html</loc></url><url><loc>https://scphilatelic.org.uk/contact.html</loc></url><url><loc>https://scphilatelic.org.uk/history.html</loc></url><url><loc>https://scphilatelic.org.uk/affiliations.html</loc></url><url><loc>https://scphilatelic.org.uk/philatelic-material.html</loc></url>
 </urlset>
