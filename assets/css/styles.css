@@ -9,5 +9,8 @@
 .meeting-image{display:block;width:100%;max-width:28rem;aspect-ratio:16/9;object-fit:cover;object-position:center 35%;margin:0;border-radius:.25rem;justify-self:start}
 .meeting-venue{display:grid;grid-template-columns:minmax(12rem,.8fr) minmax(0,1.2fr);align-items:center;gap:.85rem;margin:.65rem 0;padding:.75rem 1rem}
 @media(max-width:36rem){.meeting-venue{grid-template-columns:1fr}}
+.event-compact{margin:.8rem 0;padding:.8rem 1rem}
+.event-compact h2{margin:0 0 .3rem}
+.event-compact p{margin:0}
 
 .sticky-footer-page{padding-bottom:12rem}.sticky-footer{position:fixed;right:0;bottom:0;left:0;z-index:2}@media(max-width:48rem){.sticky-footer-page{padding-bottom:24rem}}
