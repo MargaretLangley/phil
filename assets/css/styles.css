@@ -3,7 +3,8 @@
 @media(max-width:36rem){.programme-table{font-size:.78rem}.programme-table th,.programme-table td{padding:.25rem .3rem}.programme-table th{font-size:.8rem}}
 
 .meeting-image{display:block;width:min(100%,16rem);height:auto;margin:1rem 0;border-radius:.25rem}
-.home-image{display:block;width:min(100%,16rem);height:auto;margin:1rem 0;padding:.2rem;border:.25rem solid var(--navy);border-radius:.25rem}
+.home-image,.history-image{display:block;width:min(100%,16rem);height:auto;margin:1rem 0;padding:.2rem;border:.25rem solid var(--navy);border-radius:.25rem}
+.history-image{margin-inline:auto}
 .meeting-venue{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);justify-content:start;align-items:center;gap:.6rem}
 .meeting-venue-copy address{margin:0}
 .meeting-venue-copy p{margin-top:1.65em}
