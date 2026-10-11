@@ -20,3 +20,4 @@
 
 .sticky-footer-page{padding-bottom:12rem}.sticky-footer{position:fixed;right:0;bottom:0;left:0;z-index:2}@media(max-width:48rem){.sticky-footer-page{padding-bottom:24rem}}
 .contact-list{display:grid;grid-template-columns:max-content max-content;gap:.35rem 1rem;margin:1rem 0}.contact-list dt,.contact-list dd{margin:0;white-space:nowrap}
+@media(max-width:36rem){.contact-list{grid-template-columns:minmax(0,1fr);gap:.1rem}.contact-list dt,.contact-list dd{white-space:normal}.contact-list dd{overflow-wrap:anywhere;margin-bottom:.35rem}}
