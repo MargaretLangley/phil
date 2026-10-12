@@ -20,7 +20,8 @@
 .meeting-venue .meeting-image,.meeting-map{display:block;margin:0;padding:.2rem;border:.25rem solid var(--navy);border-radius:.25rem}
 .meeting-venue .meeting-image{width:min(100%,14rem);justify-self:center}
 .meeting-map{width:min(100%,23rem);aspect-ratio:1;margin:1.2rem 0;background:#e5f0f6}
-.home-title{font-size:clamp(1.8rem,4vw,2.6rem)}
+.home-title{font-size:clamp(1.6rem,3.5vw,2.2rem)}
+.home-content h2{font-size:clamp(1.3rem,2.5vw,1.65rem)}
 @media(max-width:48rem){.meeting-venue{grid-template-columns:repeat(2,minmax(0,1fr))}.meeting-venue-copy{grid-column:1/-1}}
 @media(max-width:36rem){.meeting-venue{grid-template-columns:1fr}.meeting-venue-copy{grid-column:auto}.meeting-venue .meeting-image{width:min(100%,16rem)}}
 .event-compact{margin:.8rem 0;padding:.8rem 1rem}
