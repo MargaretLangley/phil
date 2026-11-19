@@ -24,7 +24,7 @@
 .home-content h2{font-size:clamp(1.3rem,2.5vw,1.65rem)}
 @media(max-width:48rem){.meeting-venue{grid-template-columns:repeat(2,minmax(0,1fr))}.meeting-venue-copy{grid-column:1/-1}}
 @media(max-width:36rem){.meeting-venue{grid-template-columns:1fr}.meeting-venue-copy{grid-column:auto}.meeting-venue .meeting-image{width:min(100%,16rem)}}
-.event-compact{margin:.8rem 0;padding:.8rem 1rem}
+.event-compact{margin:.8rem 0;padding:.8rem 1rem;border-left:0}
 .event-compact h2{margin:0 0 .3rem}
 .event-compact p{margin:0}
 
@@ -35,3 +35,10 @@
 .programme-address{width:min(100%,54rem);margin-inline:auto}
 
 .display-pdf{display:block;width:100%;height:clamp(24rem,75vh,55rem);border:.08rem solid var(--border);border-radius:.25rem}
+
+.events-content{border-right:0;box-shadow:none}
+.events-content .details{border-right:0}
+.events-content .meeting-venue-copy p{margin-top:1.65em}
+.events-content .meeting-venue-copy:only-child{grid-column:1/-1}
+
+.events-content .meeting-map{width:min(100%,15rem)}
