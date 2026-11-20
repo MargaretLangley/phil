@@ -42,3 +42,5 @@
 .events-content .meeting-venue-copy:only-child{grid-column:1/-1}
 
 .events-content .meeting-map{width:min(100%,15rem)}
+
+.dauwalders-discounts{width:auto;max-width:100%}
