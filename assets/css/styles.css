@@ -45,3 +45,66 @@
 .events-content .meeting-map{width:min(100%,15rem)}
 
 .dauwalders-discounts{width:auto;max-width:100%}
+
+.home-page {
+  background: #cce6f7;
+}
+
+.home-page :is(.site-header, .site-footer) {
+  position: relative;
+  z-index: 2;
+}
+
+.home-page :is(.home-content, .notice) {
+  background: transparent;
+}
+
+.home-snow {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.home-snow[hidden] {
+  display: none;
+}
+
+.home-snow span {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  font-size: var(--flake-size);
+  line-height: 1;
+  text-shadow: 0 0 2px #537b9c, 0 1px 2px #537b9c;
+  animation: snow-fall var(--fall-time) linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-snow span {
+    top: var(--flake-rest-position);
+    animation: none;
+  }
+}
+
+@keyframes snow-fall {
+  from { transform: translate(0, -1rem); }
+  to { transform: translate(1.5rem, 100vh); }
+}
+
+.snow-toggle {
+  display: block;
+  margin: 0 0 1rem;
+  padding: .4rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: .25rem;
+  background: #b4d8ef;
+  color: var(--navy-dark);
+  font: inherit;
+  cursor: pointer;
+}
+
+.snow-toggle[hidden] {
+  display: none;
+}
