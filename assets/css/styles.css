@@ -41,6 +41,10 @@
 .events-content .details{border-right:0}
 .events-content .meeting-venue-copy p{margin-top:1.65em}
 .events-content .meeting-venue-copy:only-child{grid-column:1/-1}
+.christmas-lunch{padding-inline:2.33rem 2.25rem}
+.christmas-lunch .meeting-venue-copy p{margin-top:0}
+.christmas-lunch img{display:block;width:min(100%,14rem);height:auto;justify-self:center}
+@media(max-width:48rem){.christmas-lunch img{justify-self:start}}
 
 .events-content .meeting-map{width:min(100%,15rem)}
 
