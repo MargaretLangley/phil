@@ -50,7 +50,7 @@
 
 .events-content .meeting-map{width:min(100%,15rem)}
 
-.dauwalders-discounts{width:auto;max-width:100%}
+.dauwalders-discounts{width:min(100%,26rem);margin-inline:auto}
 
 .home-page {
   background: #cce6f7;
