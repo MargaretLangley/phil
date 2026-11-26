@@ -12,7 +12,7 @@
 @media(max-width:36rem){.programme-table{font-size:.875rem}.programme-table th,.programme-table td{padding:.5rem .35rem}.programme-table th:nth-child(1),.programme-table td:nth-child(1){width:20%}.programme-table th:nth-child(2),.programme-table td:nth-child(2){width: 55%}.programme-table th:nth-child(3),.programme-table td:nth-child(3){width:25%}}
 
 .meeting-image{display:block;width:min(100%,16rem);height:auto;margin:1rem 0;border-radius:.25rem}
-.home-image,.history-image{display:block;width:min(100%,16rem);height:auto;margin:1rem 0;padding:.2rem;border:.25rem solid var(--navy);border-radius:.25rem}
+.home-image,.history-image,.display-map{display:block;width:min(100%,16rem);height:auto;margin:1rem 0;padding:.2rem;border:.25rem solid var(--navy);border-radius:.25rem}
 .home-image{margin-inline:auto}
 .history-image{width:min(100%,22.4rem);margin-inline:auto}
 .meeting-venue{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);justify-content:start;align-items:center;gap:.6rem}
@@ -37,6 +37,7 @@
 
 .programme-address{width:min(100%,54rem);margin-inline:auto}
 
+.display-map{width:min(100%,32rem)}
 .display-pdf{display:block;width:100%;height:clamp(24rem,75vh,55rem);border:.08rem solid var(--border);border-radius:.25rem}
 
 .events-content{border-right:0;box-shadow:none}
